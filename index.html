@@ -53,6 +53,23 @@ document.getElementById("sample").innerHTML = Sample1;
 
     document.getElementById("sample3").innerHTML = Sample3;
 </script>
+
+<h2>JavaScript do-While Loop</h2>
+
+<p id="sample3"></p>
+
+<script>
+    let Sample3 = "";
+    let z = 5;
+
+    do {
+        Sample3 += "<br>The number is " + z;
+        z--;
+    }
+    while (z > 0);  
+
+    document.getElementById("sample3").innerHTML = Sample3;
+</script>
     
 </body>
 </html>
